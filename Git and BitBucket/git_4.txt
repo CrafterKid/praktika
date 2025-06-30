@@ -1,0 +1,16 @@
+$ git init
+$ git add 1.txt
+$ git commit -m "First commit"
+$ git checkout -b feature1
+$ git add 1.txt
+$ git commit -m “Left 00 added”
+$ git checkout master
+$ git add 1.txt
+$ git commit -m “Right 00 added”
+$ git checkout master
+$ git merge feature1
+$ git checkout master
+$ git merge feature2
+$ git commit -m “right 00 merge conflict resolved”
+$ git branch -d feature1
+$ git branch -d feature2

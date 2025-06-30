@@ -1,0 +1,13 @@
+$ git init
+$ git add 1.txt
+$ git commit -m "First commit"
+$ git log
+$ git checkout -b "feature1"
+$ git log
+$ git add 2.txt
+$ git commit -m "Second commit"
+$ git log
+$ git checkout master
+$ git merge feature1
+$ git log
+$ git branch -d feature1

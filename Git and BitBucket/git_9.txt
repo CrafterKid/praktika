@@ -1,0 +1,20 @@
+$ git init
+$ git add 1.txt
+$ git commit -m "First commit"
+$ git remote add origin git clone https://crafter_kid-admin@bitbucket.org/crafter_kid/practika.git
+$ git push -u origin master
+$ git checkout -b "feature1"
+$ git checkout master
+$ git checkout -b "feature2"
+$ git add 2.txt
+$ git commit -m "second"
+$ git push -u origin feature2
+$ git checkout master
+$ git pull
+$ git checkout feature2
+$ git merge master
+$ git push
+$ git checkout master
+$ git pull
+$ git branch -d feature1
+$ git branch -d feature2

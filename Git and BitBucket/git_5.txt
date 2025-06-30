@@ -1,0 +1,22 @@
+$ git init
+$ git add 1.txt
+$ git commit -m "First commit"
+$ git checkout -b "feature1"
+$ git add 1.txt
+$ git commit -m "com_1"
+$ git checkout -b "feature1a"
+$ git add 1.txt
+$ git commit -m "com_1a"
+$ git checkout feature1
+$ git checkout -b "feature1b"
+$ git add 1.txt
+$ git commit -m "com_1"
+$ git checkout feature1
+$ git merge feature1b
+$ git checkout feature1
+$ git merge feature1a
+$ git checkout master
+$ git merge feature1
+$ git branch -d feature1a
+$ git branch -d feature1b
+$ git branch -d feature1

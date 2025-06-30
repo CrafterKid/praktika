@@ -1,0 +1,15 @@
+$ git init
+$ git add 1.txt
+$ git commit -m "First commit"
+$ git log
+$ git checkout -b "feature1"
+$ git log
+$ git add 2.txt
+$ git checkout master
+$ git add 1.txt
+$ git commit -m "update"
+$ git checkout feature1
+$ git rebase master
+$ git checkout master
+$ git merge feature1
+$ git log
